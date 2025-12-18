@@ -1,5 +1,5 @@
 /**
- * Problem Zero: Sum of Odd Square Numbers
+ * Problem 0: Sum of Odd Square Numbers
  *
  * A number is a perfect square (or square number) if it is the square of a positive integer.
  * For example:
