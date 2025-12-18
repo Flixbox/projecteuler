@@ -1,0 +1,46 @@
+{
+  // Disable GitHub Copilot
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+
+  // Disable Gemini Code Assist
+  "geminicodeassist.enable": false,
+
+  // Disable IntelliCode AI suggestions
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+
+  // Disable AI-powered quick suggestions and hints
+  "editor.inlineSuggest.enabled": false,
+  "editor.codeLens": false,
+
+  // Disable parameter hints (can be AI-enhanced)
+  "editor.parameterHints.enabled": false,
+
+  // Disable hover information (some AI features enhance this)
+  "editor.hover.enabled": true,
+
+  // Disable suggestion commit characters
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  // Disable AI chat features
+  "chat.commandCenter.enabled": false,
+
+  // Disable editor autocomplete and suggestions
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.enabled": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoSurround": "never",
+  "editor.inlineSuggest.experimental.suppressInlineSuggestions": "*",
+  "editor.inlineSuggest.minShowDelay": 9999,
+  "editor.inlineSuggest.showToolbar": "never",
+  "editor.quickSuggestionsDelay": 0
+}
