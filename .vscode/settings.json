@@ -19,28 +19,11 @@
   "editor.parameterHints.enabled": false,
 
   // Disable hover information (some AI features enhance this)
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": "on",
 
   // Disable suggestion commit characters
   "editor.acceptSuggestionOnCommitCharacter": false,
 
   // Disable AI chat features
   "chat.commandCenter.enabled": false,
-
-  // Disable editor autocomplete and suggestions
-  "editor.quickSuggestions": {
-    "other": "off",
-    "comments": "off",
-    "strings": "off"
-  },
-  "editor.suggestOnTriggerCharacters": false,
-  "editor.wordBasedSuggestions": "off",
-  "editor.suggest.enabled": false,
-  "editor.autoClosingBrackets": "never",
-  "editor.autoClosingQuotes": "never",
-  "editor.autoSurround": "never",
-  "editor.inlineSuggest.experimental.suppressInlineSuggestions": "*",
-  "editor.inlineSuggest.minShowDelay": 9999,
-  "editor.inlineSuggest.showToolbar": "never",
-  "editor.quickSuggestionsDelay": 0
 }
