@@ -18,11 +18,14 @@
  * Calculate the sum of all odd square numbers among the first 274,000 square numbers.
  */
 
+import { isEven } from '@/utils'
+
 const SQUARE_NUMBERS_TO_FIND = 274000
 let sumOfSquareNumbers = 0
 
 for (let i = 1; i <= SQUARE_NUMBERS_TO_FIND; i++) {
-  sumOfSquareNumbers += i * i
+  const squared = i * i
+  if (!isEven(squared)) sumOfSquareNumbers += squared
 }
 
 console.info('sumOfSquareNumbers: ', sumOfSquareNumbers)
